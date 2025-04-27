@@ -1,0 +1,32 @@
+{
+  "name": "starter-kit",
+  "version": "1.0.0",
+  "description": "A starter kit for basic websites",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "LaskoBoom",
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "devDependencies": {
+    "css-loader": "^7.1.2",
+    "handlebars": "^4.7.8",
+    "html-bundler-webpack-plugin": "^4.15.2",
+    "html-webpack-plugin": "^5.6.3",
+    "sass": "^1.83.4",
+    "sass-loader": "^16.0.4",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.0"
+  }
+}
